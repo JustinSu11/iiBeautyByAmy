@@ -1,0 +1,35 @@
+header {
+    img {
+        width:auto;
+    }
+}
+
+body {
+    
+}
+
+h1,h2,h3 {
+    font-family: "Tangerine", cursive;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, transparent, ivory, bisque, gold);
+    color: black
+}
+
+.navbar {
+    background-color: blanchedalmond;
+    border-top: 1px ridge;
+}
+
+.nav-item-active {
+    border-left: 1px ridge goldenrod;
+}

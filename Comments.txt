@@ -1,0 +1,4 @@
+Planned:
+1. social media icons stacked vertically
+Issues:
+1. Collapsed navbar does not expand when button is clicked.
