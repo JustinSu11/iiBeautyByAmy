@@ -53,3 +53,8 @@ footer {
     background-color: blanchedalmond;
     border-top: 2px solid;;
 }
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}

@@ -5,9 +5,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" />
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -28,9 +28,10 @@
             </div>
         </header>
 
+        <!--navigation bar-->
         <nav class="navbar navbar-expand-sm navbar-light sticky-top">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#iiBeautyNavbar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#iiBeautyNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="iiBeautyNavbar">
@@ -59,14 +60,34 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra vel turpis nunc eget lorem. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Integer vitae justo eget magna fermentum iaculis eu non diam. Feugiat scelerisque varius morbi enim. Elementum nisi quis eleifend quam adipiscing. Sed risus ultricies tristique nulla aliquet enim tortor at. Sapien eget mi proin sed libero. Commodo quis imperdiet massa tincidunt nunc. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Auctor augue mauris augue neque gravida in fermentum et.</p>
                     </div>
                 </div>
+
                 <div class="row">
-                    <div class="col mt-5">
-                        <p class="text-center">This is reviews that speak on Amy's character</p>
+                    <div class="col-md-6 col-centered my-5">
+                        <div id="homeCarousel" class="carousel slide px-5" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <p class="text-center d-none w-70 d-sm-block">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat."</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-center d-none w-70 d-sm-block">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-center d-none w-70 d-sm-block">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In massa tempor nec feugiat nisl pretium fusce id. Dictum at tempor commodo ullamcorper."</p>
+                                </div>
+                            </div>
+                            <!--carousel controls-->
+                            <a class="carousel-control-prev pe-5" href="#homeCarousel" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next ps-5" href="#homeCarousel" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            
 
             <div class="row-content">
                 <div class="row">
@@ -98,7 +119,7 @@
                 </div>   
         </div>
             <div class="row my-5">
-                <div class="col-2 offset-sm-5 text-center">
+                <div class="col-sm-2 offset-sm-5 text-center">
                     <a href="#" class="btn btn-primary my-5 p-4 text-center">BOOK NOW</a>
                 </div>
             </div>
